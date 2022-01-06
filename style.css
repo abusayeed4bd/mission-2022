@@ -1,0 +1,122 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    
+}
+
+.container{
+    width: 1070px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.green-color{
+    color: #05c46b;
+}
+
+.width-60{
+    width: 58%;
+    margin-top: 40px;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.width-40{
+    width: 38%;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+img{
+    max-width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+section{
+    padding: 50px 0;
+}
+/* hero section */
+.hero-text{
+    border-left: 5px solid #00d8d6;
+}
+.hero-text h1 {
+    padding-left: 15px;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+}
+p {
+	font-size: 20px;
+	line-height: 33px;
+	color: #666;
+}
+.default-btn {
+	text-decoration: none;
+	background-color: #00d8d6;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 7px;
+	font-weight: 500;
+	margin: 15px 0;
+	display: inline-block;
+}
+
+/* mission 2022 section */
+
+.mission-22 h1{
+    font-size: 50px;
+}
+
+.mission-iteam{
+    width: 31.3%;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding: 30px;
+    border-radius: 10px;
+}
+.mission-iteam img {
+    width: 106px;
+}
+
+#mission{
+    background-color: #eef6f7;
+}
+#vission{
+    background-color: #ffefef;
+}
+#goal{
+    background-color: #fff4d6;
+}
+
+
+/* develop section */
+.develop{
+    background-image: url(./images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position:  left;
+    background-size: contain;
+}
+
+.develop .width-60 {
+	margin-left: 60px;
+}
+ .width-60 h2 {
+	font-size: 34px;
+	font-weight: 700;
+}
+
+/* comunity section */
+.community{
+    background-image: url(./images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+footer{
+    background-color: #0b0d17;
+    padding: 20px 0;
+    color: #fff;
+}
