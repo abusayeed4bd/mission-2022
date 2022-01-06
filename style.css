@@ -29,6 +29,9 @@ body{
     margin-right: 1%;
     margin-left: 1%;
 }
+.width-50{
+    width: 48%;
+}
 img{
     max-width: 100%;
 }
@@ -48,7 +51,7 @@ section{
     font-family: 'Lobster', cursive;
 }
 p {
-	font-size: 20px;
+	font-size: 19px;
 	line-height: 33px;
 	color: #666;
 }
@@ -65,7 +68,7 @@ p {
 
 /* mission 2022 section */
 
-.mission-22 h1{
+.container h1{
     font-size: 50px;
 }
 
@@ -81,19 +84,19 @@ p {
 }
 
 #mission{
-    background-color: #eef6f7;
+    background-color: #d7fcea;
 }
 #vission{
-    background-color: #ffefef;
+    background-color: #b5eaf3;
 }
 #goal{
-    background-color: #fff4d6;
+    background-color: #b5c7fa;
 }
 
 
 /* develop section */
 .develop{
-    background-image: url(./images/shape-1.png);
+    background-image: url(./images/sec-bg.png);
     background-repeat: no-repeat;
     background-position:  left;
     background-size: contain;
@@ -106,10 +109,36 @@ p {
 	font-size: 34px;
 	font-weight: 700;
 }
-
+/* contact section */
+.form input {
+	display: block;
+	padding: 10px;
+	font-size: 20px;
+	border: 1px solid #ddd;
+	width: 97%;
+	margin-bottom: 15px;
+	border-radius: 10px;
+}
+.form textarea {
+	display: block;
+	width: 100%;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+}
+button {
+	border: none;
+	font-size: 17px;
+	font-weight: 500 !important;
+}
+.image img {
+	border-radius: 10px;
+	margin-left: 130px;
+	width: 393px;
+	text-align: right;
+}
 /* comunity section */
 .community{
-    background-image: url(./images/shape-1.png);
+    background-image: url(./images/sec-bg.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
@@ -120,3 +149,7 @@ footer{
     padding: 20px 0;
     color: #fff;
 }
+footer h1{
+    font-family: 'Lobster', cursive;
+}
+
