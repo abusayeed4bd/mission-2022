@@ -43,7 +43,7 @@ section{
 }
 /* hero section */
 .hero-text{
-    border-left: 5px solid #00d8d6;
+    border-left: 5px solid #6b05c4;
 }
 .hero-text h1 {
     padding-left: 15px;
@@ -57,7 +57,7 @@ p {
 }
 .default-btn {
 	text-decoration: none;
-	background-color: #00d8d6;
+	background-color: #6b05c4;
 	color: #fff;
 	padding: 10px 20px;
 	border-radius: 7px;
